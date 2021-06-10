@@ -406,7 +406,7 @@ async def oynat(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "MusicAsistan"
+        user.first_name =  "Rgyardimci"
     usar = user
     wew = usar.id
     try:
@@ -427,7 +427,7 @@ async def oynat(_, message: Message):
                               await USER.join_chat(invitelink)
                               await USER.send_message(message.chat.id,"I joined this group for playing music in VC")
                               await lel.edit(
-                                  "<b>MusicAsistan userbot sohbetinize katıldı</b>",
+                                  "<b>RgYardimci userbot sohbetinize katıldı</b>",
                               )
 
                           except UserAlreadyParticipant:
@@ -436,7 +436,7 @@ async def oynat(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add MusicAsistan to your Group and try again</b>",
+                                  "\n\nOr manually add Rgyardimci to your Group and try again</b>",
                               )
                               pass
     try:
@@ -491,7 +491,7 @@ async def oynat(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="Kanal ve Mp3 🎵",
-                        url=f"https://t.me/kanalEfsanestar")
+                        url=f"https://t.me/RgBotSupport")
 
                 ],
                 [       
@@ -554,7 +554,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "MusicAistan"
+        user.first_name =  "Rgyardimci"
     usar = user
     wew = usar.id
     try:
@@ -575,7 +575,7 @@ async def deezer(client: Client, message_: Message):
                               await USER.join_chat(invitelink)
                               await USER.send_message(message_.chat.id,"I joined this group for playing music in VC")
                               await lel.edit(
-                                  "<b>MusicAsistan userbot joined your chat</b>",
+                                  "<b>Rgyardimci userbot joined your chat</b>",
                               )
 
                           except UserAlreadyParticipant:
@@ -584,7 +584,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add MusicAsistan to your Group and try again</b>",
+                                  "\n\nOr manually add Rgyardimci to your Group and try again</b>",
                               )
                               pass
     try:
@@ -647,9 +647,9 @@ async def deezer(client: Client, message_: Message):
         loc = file_path
         appendable = [s_name, r_by, loc]
         qeue.append(appendable)
-        await res.edit_text(f"**MusicAsistan**=#️⃣ Konumda sıraya alındı {position}")
+        await res.edit_text(f"**RG Music**=#️⃣ Konumda sıraya alındı {position}")
     else:
-        await res.edit_text("**MusicAsistan**=▶️ Oynatılıyor.....")
+        await res.edit_text("**RG Music**=▶️ Oynatılıyor.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
@@ -684,7 +684,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "MusicAsistan"
+        user.first_name =  "RgYardimci"
     usar = user
     wew = usar.id
     try:
@@ -714,7 +714,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add MusicAsistan to your Group and try again</b>",
+                                  "\n\nOr manually add RgYardimci to your Group and try again</b>",
                               )
                               pass
     try:
@@ -758,7 +758,7 @@ async def jiosaavn(client: Client, message_: Message):
              [
                InlineKeyboardButton(
                    text="Sohbet kanalımız",
-                   url='https://t.me/sohbetskyfall')
+                   url='https://t.me/RgBotSupport')
              ],
              [       
                InlineKeyboardButton(
@@ -782,12 +782,12 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"**MusicAsistan**=#️⃣ Konumda sıraya alındı {position}",
+            caption=f"**RG Music**=#️⃣ Konumda sıraya alındı {position}",
         
         )           
            
     else:
-        await res.edit_text("**MusicAsistan**=▶️ Oynatılıyor.....")
+        await res.edit_text("**RG Music**=▶️ Oynatılıyor.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
