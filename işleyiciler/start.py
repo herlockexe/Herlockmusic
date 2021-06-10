@@ -14,7 +14,7 @@ async def start_(client: Client, message: Message):
 \nTelegram'ın sesli sohbetinde müzik dinlemek için yazılmış açık kaynak kodlu müzik botudur.
 \n\nGruplarınıza alıp müzik dinleme keyfini çıkarın, Müzik ücretsiz olduğu için ufak problemler olabilir. 
 \nBotun komutları için basınız /help fazla bilgi için ⬇️.
-\n\nDeveloped Sahip 🇹🇷 [MehmetBaba](https://t.me/EfsaneStar) 
+\n\nDeveloped Sahip 🇹🇷 [MehmetBaba](https://t.me/Mehmett_12) 
   </b>""",
       
        
@@ -27,18 +27,18 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/sohbetskyfall"
+                        "💬 Group", url="https://t.me/RgBotSupport"
                     ),
                     InlineKeyboardButton(
-                        "📣 Channel", url="https://t.me/sohbetlobisi"
+                        "📣 Channel", url="https://t.me/RgChannell"
                     ),
                     InlineKeyboardButton(
-                        "💾 Bilgi", url="https://t.me/Rgsohbet"
+                        "💾 Bilgi", url="https://t.me/RgBotSupport"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Grubunuza Ekle ➕", url="https://t.me/TurkishVoicebot?startgroup=true"
+                        "➕ Grubunuza Ekle ➕", url="https://t.me/RgMusiccbot?startgroup=true"
                     ) 
                 ]
             ]
@@ -57,7 +57,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/sohbetskyfall"
+                        "💬 Group", url="https://t.me/RgSohbet"
                     )
                 ],    
                 [    
@@ -103,7 +103,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🎵 müzik kanal", url="https://t.me/kanalEfsanestar"
+                        "🎵 müzik kanal", url="https://t.me/RgChannell"
                     )
                 ]
             ]
