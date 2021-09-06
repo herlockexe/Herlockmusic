@@ -491,7 +491,7 @@ async def oynat(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="Kanal ve Mp3 🎵",
-                        url=f"https://t.me/RgBotSupport")
+                        url=f"https://t.me/kizilsancakbilgi")
 
                 ],
                 [       
@@ -647,9 +647,9 @@ async def deezer(client: Client, message_: Message):
         loc = file_path
         appendable = [s_name, r_by, loc]
         qeue.append(appendable)
-        await res.edit_text(f"**RG Music**=#️⃣ Konumda sıraya alındı {position}")
+        await res.edit_text(f"**Hatira Music**=#️⃣ Konumda sıraya alındı {position}")
     else:
-        await res.edit_text("**RG Music**=▶️ Oynatılıyor.....")
+        await res.edit_text("**Hatira Music**=▶️ Oynatılıyor.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
@@ -684,7 +684,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "RgYardimci"
+        user.first_name =  "ggYardimci"
     usar = user
     wew = usar.id
     try:
@@ -782,12 +782,12 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"**RG Music**=#️⃣ Konumda sıraya alındı {position}",
+            caption=f"**Hatira Music**=#️⃣ Konumda sıraya alındı {position}",
         
         )           
            
     else:
-        await res.edit_text("**RG Music**=▶️ Oynatılıyor.....")
+        await res.edit_text("**Hatira Music**=▶️ Oynatılıyor.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
