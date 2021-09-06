@@ -14,7 +14,7 @@ async def start_(client: Client, message: Message):
 \nTelegram'ın sesli sohbetinde müzik dinlemek için yazılmış açık kaynak kodlu müzik botudur.
 \n\nGruplarınıza alıp müzik dinleme keyfini çıkarın, Müzik ücretsiz olduğu için ufak problemler olabilir. 
 \nBotun komutları için basınız /help fazla bilgi için ⬇️.
-\n\nDeveloped Sahip 🇹🇷 [MehmetBaba](https://t.me/Mehmett_12) 
+\n\nDeveloped Sahip 🇹🇷 [ADSIZ KAPTAN](https://t.me/kizilsancaksahibi) 
   </b>""",
       
        
@@ -22,23 +22,23 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🎵 Music Kanalım", url="https://t.me/kanalEfsanestar",
+                        "🎵 Music Kanalım", url="https://t.me/solofej",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/RgBotSupport"
+                        "💬 Group", url="https://t.me/sancakailesi"
                     ),
                     InlineKeyboardButton(
-                        "📣 Channel", url="https://t.me/RgChannell"
+                        "📣 Channel", url="https://t.me/kizilsancakbilgi"
                     ),
                     InlineKeyboardButton(
-                        "💾 Bilgi", url="https://t.me/RgBotSupport"
+                        "💾 Bilgi", url="https://t.me/kizilsancaksahibi"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Grubunuza Ekle ➕", url="https://t.me/RgMusiccbot?startgroup=true"
+                        "➕ Grubunuza Ekle ➕", url="https://t.me/HatiralaraMusicbot?startgroup=true"
                     ) 
                 ]
             ]
@@ -57,7 +57,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/RgSohbet"
+                        "💬 Group", url="https://t.me/sancakailesi"
                     )
                 ],    
                 [    
@@ -103,7 +103,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🎵 müzik kanal", url="https://t.me/RgChannell"
+                        "🎵 müzik kanal", url="https://t.me/Solofej"
                     )
                 ]
             ]
