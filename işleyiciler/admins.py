@@ -70,7 +70,7 @@ async def stop(_, message: Message):
             pass
 
         callsmusic.pytgcalls.leave_group_call(message.chat.id)
-        await message.reply_text("❌ Müzik botu kapatıldı.🤖")
+        await message.reply_text("❌ Müzik botu kapatıldıı.🤖")
 
 
 @Client.on_message(command("atla") & other_filters)
