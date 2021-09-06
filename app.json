@@ -1,9 +1,9 @@
 {
-    "name": "✯MusicPınarı✯",
+    "name": "HatiralaraMusic",
     "logo": "https://telegra.ph/file/7ffa8d18b9b7f1b51a81e.jpg",
     "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
     "keywords": ["music", "voicechat", "telegram"],
-    "repository": "https://github.com/mehmet0643/rgorjmusic",
+    "repository": "https://github.com/EkimozSupport/asena",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -17,7 +17,7 @@
         "BOT_NAME": {
             "description": "Your VCPlayBot Name.",
             "required": false,
-            "value": "RG Music 🎵"
+            "value": "Hatıralara Music"
        },
         "API_ID": {
             "description": "From my.telegram.org/apps",
