@@ -19,7 +19,7 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 async def ytlink(_, message: Message):
     try:
         if len(message.command) < 2:
-            await message.reply_text("/aramanın bağımsız değişkene ihtiyacı var!")
+            await message.reply_text("/aramanın bağımsız değişkene ihtiyac var!")
             return
         query = message.text.split(None, 1)[1]
         m = await message.reply_text("araştırıcı....")
